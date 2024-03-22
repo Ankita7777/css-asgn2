@@ -1,0 +1,168 @@
+*,::before,::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ECA1FF;
+}
+
+
+/* NAVBAR */
+.nav{
+    /* border: 1px solid black; */
+    width: 6vw; 
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-top: 4rem;
+    background: rgb(190,114,237);
+    background: linear-gradient(180deg, rgba(190,114,237,1) 0%, rgba(174,235,239,1) 100%);
+}
+
+.nav>img{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.group1{
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 5rem;
+    font-weight: 600;
+}
+
+.nav>img#two{
+    width: 10rem;
+    rotate: 300deg;
+    margin-left: -2.5rem;
+    margin-top: 2rem;
+}
+
+/* MAIN */
+.heading{
+    position: absolute;
+    left: 30%;
+    top: 0%;
+    font-size: 12.5rem;
+    color: #F50202 ;
+    font-family: "Passero One", sans-serif;
+    font-weight: 400;
+}
+
+.subheading{
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    font-size: 8rem;
+    color: black ;
+    font-family: "Passero One", sans-serif;
+    font-weight: 400;
+}
+
+.main>img{
+    position: absolute;
+    left:15%;
+    top: 18%;
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+/* VALUES */
+.values{
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 400;
+
+}
+
+.per100g{
+    font-size: 3.5rem;
+    position: absolute;
+    top: 50rem;
+    left: 47%;
+    letter-spacing: 10px;
+}
+
+.group2{
+display: flex;
+gap: 5rem;
+font-size: 2.5rem;
+position: absolute;
+top: 55rem;
+left: 35%;
+color: #F50202;
+
+}
+
+.group3{
+    display: flex;
+    gap: 7rem;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 58rem;
+    left: 38%;
+}
+
+.g3{
+    padding-left: 0.5rem;
+}
+
+.g4{
+    margin-left: -1rem;
+}
+
+.g5{
+    padding-left: 2rem;
+}
+
+/* Footer Styles */
+
+footer {
+    position: relative;
+    top: 30rem;
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px; /* Adjust size as needed */
+}
+
+.company-info p {
+    margin: 5px 0;
+}
+
+.quick-contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.quick-contact-form input,
+.quick-contact-form textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.quick-contact-form button {
+    padding: 8px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.quick-contact-form button:hover {
+    background-color: #45a049;
+}
